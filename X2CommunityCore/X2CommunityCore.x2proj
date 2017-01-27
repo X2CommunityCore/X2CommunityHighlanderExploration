@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>4abee6df-7b3c-469c-931a-fcf74ef06c30</Guid>
+    <Name>X2CommunityCore</Name>
+    <Description>X2CommunityCore</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>X2CommunityCore</AssemblyName>
+    <RootNamespace>X2CommunityCore</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Config\XComEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComEngine.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGame.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGrimyHighlander.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGrimyTrainingRoulette.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\GrimyHighlanderPackage.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Largerspawnpoints_ModShaderCache.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="CookedPCConsole\XComGame.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="CookedPCConsole\XComGame.upk.uncompressed_size">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\XComGame.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModPreview.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\X2CommunityCore\Classes\X2DownloadableContentInfo_X2CommunityCore.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XComGame\Classes\GrimyGameState_Unit_TrainingRoulette.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XComGame\Classes\GrimyHighlanderConfig.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XComGame\Classes\Grimy_Utility_TrainingRoulette.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XComGame\Classes\UISpecialMissionHUD.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XComGame\Classes\X2AbilityToHitCalc.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XComGame\Classes\X2AbilityToHitCalc_StandardAim.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XComGame\Classes\X2SoldierClassTemplate.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XComGame\Classes\X2StrategyElement_DefaultRewards.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XComGame\Classes\X2TacticalGameRuleset.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XComGame\Classes\XComCharacterCustomization.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XComGame\Classes\XComGameState_AIReinforcementSpawner.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XComGame\Classes\XComGameState_Unit.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XComGame\Classes\XComGroupSpawn.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XComGame\Classes\XComOnlineEventMgr.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XComGame\Classes\XComPresentationLayer.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\XComGame\Classes\XGWeapon.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Config" />
+    <Folder Include="Content" />
+    <Folder Include="CookedPCConsole" />
+    <Folder Include="Localization" />
+    <Folder Include="Src" />
+    <Folder Include="Src\X2CommunityCore\Classes" />
+    <Folder Include="Src\XComGame" />
+    <Folder Include="Src\X2CommunityCore" />
+    <Folder Include="Src\XComGame\Classes" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>
