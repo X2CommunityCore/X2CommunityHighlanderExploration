@@ -38,6 +38,7 @@
 *.opensdf
 *.sdf
 *.VC.opendb
+Thumbs.db
 
 # Precompiled Assets
 SourceArt/**/*.png
